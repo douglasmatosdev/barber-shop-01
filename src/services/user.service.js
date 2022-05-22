@@ -1,7 +1,7 @@
 import axios from 'axios';
 import authHeader from './auth-header';
 
-const API_URL = "https://barber-shop-01.herokuapp.com/api/auth/" // 'http://localhost:8080/api/test/';
+const API_URL = "https://barber-shop-01.herokuapp.com/api/test/" // 'http://localhost:8080/api/test/';
 
 class UserService {
   getPublicContent() {
